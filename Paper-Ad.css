@@ -4,9 +4,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Exo', sans-serif;
+    
 }
 
-
+main{
+    background-image: linear-gradient(
+350deg
+, #5fb5ee 0%, #4e4376 100%);
+}
 .logo{
     display: inline;
     background-color: blanchedalmond;
@@ -19,21 +24,70 @@
     width: 65px;
     height: 8%;
 }
+
+.team{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.team img {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+}
+.team div{
+    
+    margin: 5px;
+    margin-top: 17px;
+    font-size: 1.3rem;
+}
+.team a {
+    text-decoration: none;
+    color: #221e1f;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+}
+header h2{
+    
+    margin: 10px;
+    margin-left: 7%;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: hsl(16deg 5% 24%);
+
+}
+header input{
+    margin: 11px;
+    padding: 7px;
+    width: 25%;
+    display: inline-block;
+    margin-left: 45%;
+    border: none;
+    border-radius: 11px;
+    box-shadow: 4px 7px 0px rgb(220 32 32 / 40%);
+}
 .header-container {
+   
     display: flex;
     height: 8%;
     position: fixed;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+   /*  background-image: linear-gradient(
+18deg
+, #ea176fe0 0%, #75abe3 100%); */
     width: 100%;
-    right:-65px;
+    right: -65px;
     top: 0;
-    
+    box-shadow: 21px 44px 41px rgb(220 32 32 / 40%);
+    box-shadow: crimson;
 }
 .sidebar{
  display: flex;
  flex-direction: column;
  width: 65px;
- background-color: bisque;
+ 
+ opacity: 0.6;
  position:fixed;
  height: 92%;
  bottom: 0;
@@ -42,11 +96,17 @@
     border: none;
     border-radius: 14px;
     margin: 12px;
-    background-color: rgb(223, 189, 139);
+     background-color: rgb(31, 28, 28); 
+    cursor: pointer;
 }
+
+.navigation-button:hover{
+    transform: rotate(360);
+}
+/* 
 .navigaiton-line{
     width: 100%;
-}
+} */
 .navigation-button-icon{
     display: inline-block;
     height: 35px;
@@ -54,20 +114,132 @@
     border-radius: 10px;
 }
 
-.front-page{
-    border: 2px solid red;
-
+.label-display{
+    width: 300px;
 }
-.image-container{
-    border: 2px solid red;
+#shopkeeper-registration-label{
+    display: none;
+    border-radius: 6px;
+    box-shadow: chocolate;
+    /* transform-style: preserve-3d; */
+    background-color: #8f59a5;
+        border: none;
+    font-size: 1.5rem;
     
+    margin-top: 0px;
+    margin-left: 7px;
+    
+    padding: 17px;
+}
+
+.label-display:hover  #shopkeeper-registration-label{
+    display: inline-block;
+    
+}
+
+
+#sponser-registration-label{
+    display: none;
+    border-radius: 6px;
+    box-shadow: chocolate;
+    /* transform-style: preserve-3d; */
+    background-color: #8f59a5;
+        border: none;
+    font-size: 1.5rem;
+    
+    margin-top: 0px;
+    margin-left: 7px;
+    
+    padding: 17px;
+}
+
+.label-display:hover  #sponser-registration-label{
+    display: inline-block;
+    
+}
+
+
+#paper-section-label{
+    display: none;
+    border-radius: 6px;
+    box-shadow: chocolate;
+    /* transform-style: preserve-3d; */
+    background-color: #8f59a5;
+        border: none;
+    font-size: 1.5rem;
+    
+    margin-top: 0px;
+    margin-left: 7px;
+    
+    padding: 17px;
+}
+
+.label-display:hover  #paper-section-label{
+    display: inline-block;
+    
+}
+
+
+#feedback-label{
+    display: none;
+    border-radius: 6px;
+    box-shadow: chocolate;
+    /* transform-style: preserve-3d; */
+    background-color: #8f59a5;
+        border: none;
+    font-size: 1.5rem;
+    
+    margin-top: 0px;
+    margin-left: 7px;
+    
+    padding: 17px;
+}
+
+.label-display:hover  #feedback-label{
+    display: inline-block;
+    
+}
+
+
+#contactus-label{
+    display: none;
+    border-radius: 6px;
+    box-shadow: chocolate;
+    /* transform-style: preserve-3d; */
+    background-color: #8f59a5;
+        border: none;
+    font-size: 1.5rem;
+    width:165px;
+    margin-top: 0px;
+    margin-left: 7px;
+    
+    padding: 17px;
+}
+
+.label-display:hover  #contactus-label{
+    display: inline-block;
+    
+}
+
+.label-display a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.front-page{
+    border:solid 0.1px rgb(165 234 236 / 0%);
+} 
+.image-container{
+    
+    /* 
     margin-top: 55px;
-    margin-left: 63px;
+    margin-left: 63px; */
 }
 #front-page-image{
     width:100% ;
     height:500px;
     
-    border: 2px solid red;
-
+   
 }
+

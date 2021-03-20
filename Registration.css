@@ -45,7 +45,9 @@
 		background-color: #ecf0f1;
 		border: 2px white solid;
         border-radius: 5px;
+        height: 55%;
     }
+    
 	.abr {
 			width: 100%;
 			position: absolute;
@@ -73,8 +75,13 @@
         }
 .registration-options a{
             text-decoration: none;
+            color: black;
+
 
         }
-:hover, :focus {
+        .registration-options:hover{
+            transform: scale(1.1);
+        }
+/* :hover, :focus {
                 color: #000000;
-			}
+			} */

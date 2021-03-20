@@ -14,12 +14,18 @@
 
 <body>
     <!--header -->
-    <div class="logo">
-        <img id="logo-icon" src="images/logo.png" alt="">
-    </div>
+    <!-- <div class="logo">
+        <img id="logo-icon" src="images/front-page image.png" alt="">
+    </div>  -->
     <header class="header ">
         <div class="header-container">
-            <h3>Paper-Ad</h3>
+            <h2>Printofia</h2>
+            <input id="seach" type="search" placeholder="search">
+            <!-- <div class="team">
+                <img src="images/team.png" alt="">
+               <div style="display: none;"><a href="team.html" >Our Team</a></div> 
+            </div> -->
+
         </div>
     </header>
 
@@ -31,30 +37,47 @@
                 <!--for navigation pane fixed in left-->
                 <div class="sidebar" id="left-vertical-sidebar">
                     <nav class="navigation-pane">
+                        <div class="label-display"style="display: flex;">
                         <button class="navigation-button" id="shopkeeper-registration">
                             <img class="navigation-button-icon" id="shopkeeper-registration-image"
-                                src="images/shopkeepericon.jfif" alt="">
-                        </button>
-                        <hr class="navigaiton-line">
+                                src="images/shopkeepericon.png" alt="">
+                               </button>
+                               <div id="shopkeeper-registration-label" ><a href="Registration-shopkeeper"> Shopkeepr </a></div>
+                            </div>
+                        <!-- <hr class="navigaiton-line"> -->
+                        <div class="label-display" style="display: flex;">
                         <button class="navigation-button" id="sponser-registration">
                             <img class="navigation-button-icon" id="sponser-registration-image"
-                                src="images/sponsericon.jfif" alt="">
+                                src="images/sponsericon.png" alt="">
                         </button>
-                        <hr class="navigaiton-line">
+                        <div id="sponser-registration-label" ><a href="Registration-sponser"> Sponser </a></div>
+                            </div>
+
+                        <!-- <hr class="navigaiton-line"> -->
+                        <div class="label-display" style="display: flex;">
                         <button class="navigation-button" id="paper-section">
-                            <img class="navigation-button-icon" id="paper-section-image" src="images/papericon.jfif"
+                            <img class="navigation-button-icon" id="paper-section-image" src="images/papericon.png"
                                 alt="">
                         </button>
-                        <hr class="navigaiton-line">
+                        <div id="paper-section-label" ><a href="#"> Paper Section </a></div>
+                            </div>
+                        
+                        <!-- <hr class="navigaiton-line"> -->
+                        <div class="label-display" style="display: flex;">
                         <button class="navigation-button" id="feedback">
-                            <img class="navigation-button-icon" id="feedback-icon" src="images/feedbackicon.jfif"
+                            <img class="navigation-button-icon" id="feedback-icon" src="images/feedbackicon.png"
                                 alt="">
                         </button>
-                        <hr class="navigaiton-line">
+                        <div id="feedback-label" ><a href="feedback"> feedback </a></div>
+                            </div>
+                       <!--  <hr class="navigaiton-line"> -->
+                        <div class="label-display" style="display: flex;">
                         <button class="navigation-button" id="contact-us">
-                            <img class="navigation-button-icon" id="contactus-icon" src="images/contactusicon.jfif"
+                            <img class="navigation-button-icon" id="contactus-icon" src="images/contactusicon.png"
                                 alt="">
                         </button>
+                        <div id="contactus-label" ><a href="contactus"> Contact Us </a></div>
+                            </div>
                     </nav>
                 </div>
 
@@ -62,14 +85,14 @@
                 <!--main content -->
                 <div class="front-page">
                     <div class="image-container">
-                        <img id="front-page-image" src="images/front-page image.jpg" alt="">
+                        <img id="front-page-image" src="images/front-page image.png" alt="">
                     </div>
                 </div>
                 <!-- register option -->
                 <div class="container-register">
 
                     <div class="element-card">
-                        <div class="front-facing">
+                        <div class="front-facing" id="track1">
                             <h1 class="abr">Shopkeeper</h1>
                             <div class="Options-link">
                                 <div class="registration-options"> <a href="Registration-shopkeeper ">Register</a>
@@ -83,7 +106,7 @@
                     </div>
 
                     <div class="element-card">
-                        <div class="front-facing">
+                        <div class="front-facing" id="track2">
                             <h1 class="abr">Sponser</h1>
                             <div class="Options-link">
                             <div class="registration-options"> <a href="Registration-sponser ">Register</a>
