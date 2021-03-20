@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+.header-container {
+    display: flex;
+    height: 8%;
+    position: fixed;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    width: 95%;
+    right:0;
+    top: 0;
+    
+}
+.sidebar{
+ display: flex;
+ flex-direction: column;
+ width: 5%;
+ background-color: bisque;
+ position:fixed;
+ height: 92%;
+ bottom: 0;
+}
+.logo{
+    display: inline;
+    background-color: blanchedalmond;
+}
+#logo-icon{
+    display: flex;
+    width: 5%;
+    height: 8%;
+}
+.navigation-button-icon{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
