@@ -7,22 +7,24 @@
     
 }
 
-main{
+ main{
     background-image: linear-gradient(
 350deg
 , #5fb5ee 0%, #4e4376 100%);
-}
+} 
 .logo{
     display: inline;
+    background-image: none;
     background-color: blanchedalmond;
     position: fixed;
 }
 
-#logo-icon{
+#logo-icon {
     display: flex;
     position: fixed;
-    width: 65px;
+    width: 204px;
     height: 8%;
+    margin-left: 93px;
 }
 
 .team{
@@ -63,7 +65,7 @@ header input{
     padding: 7px;
     width: 25%;
     display: inline-block;
-    margin-left: 45%;
+    margin-left: 55%;
     border: none;
     border-radius: 11px;
     box-shadow: 4px 7px 0px rgb(220 32 32 / 40%);
@@ -101,7 +103,7 @@ header input{
 }
 
 .navigation-button:hover{
-    transform: rotate(360);
+    transform: translate(1.3);
 }
 /* 
 .navigaiton-line{
@@ -178,6 +180,11 @@ header input{
     display: inline-block;
     
 }
+.navigation-button-icon:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s
+}
 
 
 #feedback-label{
@@ -218,28 +225,41 @@ header input{
 
 .label-display:hover  #contactus-label{
     display: inline-block;
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+
     
 }
 
+
+    
 .label-display a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-.front-page{
+/* .front-page{
     border:solid 0.1px rgb(165 234 236 / 0%);
-} 
-.image-container{
-    
-    /* 
-    margin-top: 55px;
-    margin-left: 63px; */
-}
+}  */
+
 #front-page-image{
     width:100% ;
-    height:500px;
+    height:540px;
     
    
 }
+.paper{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+350deg
+, #5fb5ee 0%, #4e4376 100%);
+}
 
+.paper img {
+    margin-top: 100px;
+    height: 800px;
+    width: 60%;
+    margin-bottom: 100px;
+}
