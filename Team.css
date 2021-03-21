@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(
+        350deg
+        , #5fb5ee 0%, #4e4376 100%);
+}
+
+.fa {
+    padding: 10px;
+    margin: 10px;
+    width: 38px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none
+}
+
+.fa:hover {
+    opacity: 0.7
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white
+}
+
+h1 {
+    font-family: 'Yrsa', serif;
+    font-size: 50px
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 260px;
+    height: 100px;
+    perspective: 1000px
+}
+
+.flip-card-inner {
+    width: 260px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg)
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    width: 260px;
+    height: 300px;
+    background-color: #f2f2f2
+}
+
+.card-title {
+    color: #007b5e;
+    padding: 20px
+}
+
+header {
+    background-color: #007b5e
+}
+
+.person {
+    color: #007b5e;
+    font-family: 'Yrsa', serif;
+    font-size: 30px;
+    padding: 15px
+}
+
+.card-body {
+    background-color: #f2f2f2
+}
