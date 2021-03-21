@@ -19,6 +19,11 @@
     position: fixed;
 }
 
+
+.team-us img{
+    width: 35px;
+    margin-top: 10px;
+}
 #logo-icon {
     display: flex;
     position: fixed;
