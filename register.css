@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url();
+    background-image: url(images/background.png);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
